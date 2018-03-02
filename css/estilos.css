@@ -1,0 +1,136 @@
+body {
+	background-color: #CED1C5 ;
+}
+.jumbotron{
+	background-color: #372DF7;
+	color: white;
+}
+.panel-heading{ 
+	background-color: #372DF7 ! important;
+	color: white ! important;
+}
+.panel-body{
+	color: #000000 ! important;
+}
+.navbar{
+	background-color: #000000 ! important;	
+}
+.navbar-brand:link, .navbar-brand:visited{
+	color: #372DF7 ! important;
+}
+.navbar-brand:hover, .navbar-brand:active{
+	color: white ! important;
+}
+#navbar li a:link, #navbar li a:visited{
+	color: white ! important;
+}
+#navbar li a:hover, #navbar li a:active{
+	color: #372DF7 ! important;
+}
+.dropdown-menu{
+	background-color: #000000 ! important;
+}
+.open > a{
+	background-color: #000000 ! important;
+}
+.btn-primary{
+    background-color: #372DF7 ! important;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #269abc !important;
+}
+.contenido-articulo{
+    background-color: white;
+    padding: 2em;
+}
+.sidebar{
+    background-color: white;
+    /*margin-top: -5em;
+    *padding-top: 5em;
+    *padding-bottom: 1em;
+    */
+}
+.sidebar, .gg_elemento{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.gg_elemento:hover{
+    background-color: #000000 !important;
+    color: deepskyblue !important;
+}
+.gg_elemento{
+    color: white;
+}
+#gg_entradas{
+    background-color: deepskyblue;
+}
+#gg_comentarios{
+    background-color: deepskyblue;
+}
+#gg_favoritos{
+    background-color: deepskyblue;
+}
+.gestor_entrada{
+    background-color: deepskyblue;
+    color: white;
+}
+.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{
+    background-color: #029ac4; 
+}
+.table-striped>tbody>tr>td{
+    border: none;
+}
+.table-striped>thead{
+    border: none;
+}
+.table>thead>tr>th{
+    border: none !important;
+}
+tbody:before{
+    content: "-";
+    display: block;
+    line-height: 1em;
+    color: transparent;
+}  
+.form_nueva_entrada{
+    background-color: white;
+    padding: 2em;
+} 
+#titulo_nueva_entrada{
+    color: deepskyblue;
+}
+.recuperacion_email{
+    color: #372DF7; 
+}
+.color_texto_entrada{
+    color: #372DF7;
+} 
+.perfil{
+    background-color: white;
+}
+#resultados{
+    background-color: #adadad;
+} 
+.fondo{
+    background-color: deepskyblue;
+}
+.boton_subir{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow:   hidden;
+    position: absolute;
+    z-index: -1;
+}
+#label-archivo{
+    background-color: #2b2b2b;
+    color: #029ac4;
+    cursor: pointer;
+    padding: 0.5em;
+    width: 100%;
+}
+#label-archivo:hover{
+    background-color: #029ac4;
+    color: white;
+}
